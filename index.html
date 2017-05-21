@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy GIFs</title>
+	<!-- Bootswatch Styling for Improving the Aesthetics -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+	<!-- Font Awesome CSS Icons (For cool glyphicons) -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/gif.css">
+
+	<!-- Style to fix the issue of text extending past panel length -->
+	<style>
+	    .panel-body a {
+	     	word-break: break-all;
+	    }
+  	</style>
+</head>
+<body>
+	<!-- Main Bootstrap Container -->
+  	<div class="container">
+
+	    <!-- Jumbotron for Title -->
+	    <div class="jumbotron">
+	      <h1 class="text-center"><strong>Giphy GIF</strong></h1>
+	    </div>
+		
+	    <div class="row" id="buttons">
+			<!-- Buttons go here -->
+	    </div>
+		<br>
+	    <div class="row">
+	    	<div class="col-md-8" id="gifDisplay">
+	    	</div>
+
+			<div class="col-md-4"
+		    	<!-- Text input to add a new button -->
+		            <div class="form-group">
+		                <label for="newTopic">Enter topic</label>
+		                <input type="text" class="form-control" id="newTopic">
+		            </div>
+
+	            <!-- Submit button -->
+	            <button type="submit" class="btn btn-default" id="submit">Submit</button>
+           	</div>
+	    </div>
+
+	 </div>
+	
+	<!-- jQuery JS -->
+  	<script src="https://code.jquery.com/jquery.js"></script>
+
+	<!-- JavaScript File -->
+	<script src="assets/javascript/gif.js"></script>
+
+</body>
+</html>
