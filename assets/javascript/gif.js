@@ -1,6 +1,6 @@
 // Variables
 
-var baseURL = "http://api.giphy.com/v1/gifs/search?";
+var baseURL = "https://api.giphy.com/v1/gifs/search?";
 var key = "dc6zaTOxFJmzC";
 var inputVal = "";
 var topics = ["Dog", "Cat", "Duck", "Goose", "Hedgehog", "Giraffe", "Hippopotamus", "Parrot", "Deer"];
